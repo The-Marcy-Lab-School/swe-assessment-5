@@ -1,15 +1,14 @@
 # Object Oriented Programming Assessment
 
 - [Object Oriented Programming Assessment](#object-oriented-programming-assessment)
+  - [What resources can you use?](#what-resources-can-you-use)
   - [Before you start](#before-you-start)
   - [That's a lot of tests](#thats-a-lot-of-tests)
   - [Running tests effectively](#running-tests-effectively)
-  - [What resources can you use?](#what-resources-can-you-use)
-- [Section 1: From Scratch](#section-1-from-scratch)
+- [Section 1: Short Responses](#section-1-short-responses)
+- [Section 2: From Scratch](#section-2-from-scratch)
   - ["Why can't I see my logs in the test?"](#why-cant-i-see-my-logs-in-the-test)
-- [Section 2: Short Answer](#section-2-short-answer)
 - [Section 3: Design Challenge](#section-3-design-challenge)
-
 
 > Welcome to your Object Oriented Programming Assessment! This is a tougher assessment than last time, but you know what's also tougher? You. You can do this, because all you have to do is your best.
 
