@@ -185,7 +185,7 @@ describe(testSuiteName, () => {
     scoreCounter.correct(expect); // DO NOT TOUCH
   });
 
-  it('Phone - removeContact(): returns "Contact not found" if the contact is not found', () => {
+  it('Phone - removeContact(): returns the right message if the contact is not found', () => {
     const myPhone = new Phone('3448731233');
 
     const peterRemovedMsg = myPhone.removeContact('Peter');
@@ -230,7 +230,7 @@ describe(testSuiteName, () => {
     scoreCounter.correct(expect); // DO NOT TOUCH
   });
 
-  it('Phone - makeCall(): returns "Calling [number]..." if the contact is not found', () => {
+  it('Phone - makeCall(): returns "Calling [number]..." if the contact is not found and number is a valid number', () => {
     const myPhone = new Phone('3448731233');
 
     const stranger = myPhone.makeCall('8615174439');
