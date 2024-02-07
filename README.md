@@ -1,15 +1,5 @@
 # Object Oriented Programming Assessment
 
-- [Object Oriented Programming Assessment](#object-oriented-programming-assessment)
-  - [What resources can you use?](#what-resources-can-you-use)
-  - [Before you start](#before-you-start)
-  - [That's a lot of tests](#thats-a-lot-of-tests)
-  - [Running tests effectively](#running-tests-effectively)
-- [Section 1: Short Responses](#section-1-short-responses)
-- [Section 2: From Scratch](#section-2-from-scratch)
-  - ["Why can't I see my logs in the test?"](#why-cant-i-see-my-logs-in-the-test)
-- [Section 3: Design Challenge](#section-3-design-challenge)
-
 > Welcome to your Object Oriented Programming Assessment! This is a tougher assessment than last time, but you know what's also tougher? You. You can do this, because all you have to do is your best.
 
 **Let's get started!**
@@ -25,7 +15,6 @@ Honestly the study guide might be the only thing you need, *definitely* use it.
 ## Before you start
 
 Before you are 3 sections:
-- Short Answers
 - From Scratch
 - Design Challenge
 
@@ -52,15 +41,7 @@ Hit `ctrl` and `c` to exit watch mode.
 
 You go this!
 
-# Section 1: Short Responses
-
-Do them first! They are half of your assessment and should take far less time than the coding portion. They will also get your brain in the right space to begin programming.
-
-If you are unsure about an answer, **Check the study guide or Google it and then put it into your own words**!
-
-Some questions can be answered in a sentence. Answer your questions like you were trying to explain the concept to a confused classmate. Mind your grammar and use the correct technical jargon!
-
-# Section 2: From Scratch
+# Section 1: From Scratch
 Inside the `from-scratch.js` file you'll see 3 things:
 
 - `bankAccountFactory`
