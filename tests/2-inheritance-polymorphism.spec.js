@@ -3,7 +3,7 @@ const ScoreCounter = require('score-tests');
 const {
   Phone,
   AppleIPhone,
-} = require('./1-inheritance-polymorphism');
+} = require('../src/2-inheritance-polymorphism');
 
 const testSuiteName = 'Inheritance & Polymorphism Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');

@@ -2,7 +2,7 @@ const path = require('path');
 const ScoreCounter = require('score-tests');
 const {
   bankAccountFactory,
-} = require('./2-factory-function');
+} = require('../src/0-factory-function');
 
 const testSuiteName = 'Factory Function Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');

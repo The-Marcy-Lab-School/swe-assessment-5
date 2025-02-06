@@ -8,49 +8,30 @@ Let's get started!
 
 ## Table of Contents
 
-* [Overview](#overview)
-  * [What resources can you use?](#what-resources-can-you-use)
-  * [Before you start](#before-you-start)
-  * [That's a lot of tests](#thats-a-lot-of-tests)
-  * [Running tests effectively](#running-tests-effectively)
-* [Section 1: Has Many / Belongs To](#section-1-has-many--belongs-to)
-* [Section 2: Inheritance \& Polymorphism](#section-2-inheritance--polymorphism)
-* [Section 3: Factory Functions](#section-3-factory-functions)
-  * ["Why can't I see my logs in the test?"](#why-cant-i-see-my-logs-in-the-test)
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+  - [What resources can you use?](#what-resources-can-you-use)
+  - [Before you start](#before-you-start)
+  - [That's a lot of tests](#thats-a-lot-of-tests)
+  - [Running tests effectively](#running-tests-effectively)
+- [Section 0: Factory Functions](#section-0-factory-functions)
+- [Section 1: Has Many / Belongs To](#section-1-has-many--belongs-to)
+- [Section 2: Inheritance \& Polymorphism](#section-2-inheritance--polymorphism)
+  - ["Why can't I see my logs in the test?"](#why-cant-i-see-my-logs-in-the-test)
 
 ## Overview
 
 ### What resources can you use?
 
-This is an open book assessment which means you can use your notes and Google. However, please do not talk to other fellows and do not use any AI resources. We need to see what *you* know from this assessment.
-
-### Resources from this module
-
-* **1/29/24 - Encapsulation & Closures** | [Repo with Code](https://github.com/The-Marcy-Lab-School/5-0-0-encapsulation-factories-closure-f23) | [Recording](https://youtu.be/zVYpcVLxXe8)
-
-* **1/30/24 - Class Basics** | [Repo with Code](https://github.com/The-Marcy-Lab-School/5-0-1-classes-f23) | [Recording](https://youtu.be/Zl0MRLBTdq0)
-* **1/31/24 - Private Properties, Static Methods** | [Repo with Code](https://github.com/The-Marcy-Lab-School/5-0-2-private-properties-static-methods) | [Recording](https://youtu.be/2CjQjFLbZBk)
-* **2/1/24 - Review** | [Repo with Code](https://github.com/benspector-mls/5-0-3-oop-review) | [Recording](https://youtu.be/yOBKtgitVK8)
-* **2/5/24 - Has Many/Belongs To** | [Repo with Code](https://github.com/The-Marcy-Lab-School/5-1-0-has-many-belongs-to-f23) | [Recording](https://youtu.be/994yn_IKogQ)
-* **2/5/24 - Lab review** | [Recording](https://youtu.be/MIOupwTF-2M)
-* **2/6/24 - Implementing Has Many/Belongs To** | [Repo with Code](https://github.com/The-Marcy-Lab-School/5-1-1-has-many-belongs-to-front-end)
-* **2/8/24 - Extending Classes** | [Repo with Code](https://github.com/The-Marcy-Lab-School/5-1-3-inheritance-polymorphism-f23)
-
-### Additional Resources
-
-* [W3 Schools - What is `this`?](https://www.w3schools.com/js/js_this.asp)
-* [MDN - What is a closure?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
-* [What are Factory Functions?](https://www.javascripttutorial.net/javascript-factory-functions/)
-* [What is Polymorphism?](https://www.youtube.com/watch?v=YkhLw5tYR6c&ab_channel=dcode)
-* [Classes are great but... use Composition Instead of Inheritance](https://www.youtube.com/watch?v=nnwD5Lwwqdo)
+This is an open book assessment which means you can use the [Marcy Docs](https://marcylabschool.gitbook.io/marcy-lab-school-docs) and other internet resources. However, please do not talk to other fellows and **do not use any AI resources**. We need to see what *you* know from this assessment.
 
 ### Before you start
 
 Before you are 3 sections:
 
+* Factory Functions
 * Has Many / Belongs To
 * Inheritance & Polymorphism
-* Factory Functions
 
 It's recommended that before you do anything, take a deep breath and let that useless adrenaline run out of you. Seriously, do that. **Do it.**
 
@@ -62,13 +43,12 @@ You're about to see a lot of tests. Do not panic. You got this!
 
 Test files are often a few hundred lines due to their repetitive nature. Sure the *file* is 200 lines long, but each isolated test is only a 2-10 lines long. Just like you've seen *a million* times now.
 
+A test will pass if the `expect()` statements inside are all successful. When reading a test, ask yourself
+* What inputs is the test providing to my function?
+* What is the expected output of my function?
+* Are there any expected side effects?
+
 How do you rock an assessment? One test at a time. Work small, test often, keep moving forward.
-
-For each test ask yourself:
-
-* What are the inputs to the function being tested?
-* What is the expected behavior?
-* What is the expected output?
 
 ### Running tests effectively
 
@@ -84,9 +64,17 @@ Hit `ctrl` and `c` to exit watch mode.
 
 You go this!
 
+## Section 0: Factory Functions
+
+Remember this? In the `0-factory-function.js` file, you'll find a `bankAccountFactory` function waiting for you.
+
+This time, you won't be using classes. You'll be going back to day 1 of OOP and building a factory function that uses closure to keep its data private.
+
+Your function should return an object with methods for manipulating that private data.
+
 ## Section 1: Has Many / Belongs To
 
-In this section, you must build 2 classes `ToDoList` and `ToDoItem` in the `0-has-many-belongs-to.js` file. **Your task is to create the basic properties and methods required for the relationship to work**. The tests for these files are in `0-has-many-belongs-to.spec.js`.
+In this section, you must build 2 classes `ToDoList` and `ToDoItem` in the `1-has-many-belongs-to.js` file. **Your task is to create the basic properties and methods required for the relationship to work**. The tests for these files are in `1-has-many-belongs-to.spec.js`.
 
 But wait, theres more!
 
@@ -99,7 +87,7 @@ To be nice, we've kick started the code a little bit with an ID utils function.
 
 ## Section 2: Inheritance & Polymorphism
 
-Inside the `1-inheritance-polymorphism.js` file you'll see 2 classes:
+Inside the `2-inheritance-polymorphism.js` file you'll see 2 classes:
 
 * A `Phone` class
 * An `AppleIPhone` class
@@ -112,14 +100,6 @@ Your mission is to get all the tests to pass. There are a *lot* of tests and the
 * Does the function console log? Return something? Both? Neither?? WHAT DOES IT DO?!
 * Are your methods and properties *spelled* correctly?
 * Do any classes inherit from any others?
-
-## Section 3: Factory Functions
-
-Remember this? In the `2-factory-function.js` file, you'll find a `bankAccountFactory` function waiting for you.
-
-This time, you won't be using classes. You'll be going back to day 1 of OOP and building a factory function that uses closure to keep its data private.
-
-Your function should return an object with methods for manipulating that private data.
 
 ### "Why can't I see my logs in the test?"
 

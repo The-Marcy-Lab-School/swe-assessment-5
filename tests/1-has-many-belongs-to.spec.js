@@ -1,6 +1,6 @@
 const path = require('path');
 const ScoreCounter = require('score-tests');
-const { ToDoList, ToDoItem } = require('./0-has-many-belongs-to');
+const { ToDoList, ToDoItem } = require('../src/1-has-many-belongs-to');
 
 const testSuiteName = 'Has Many / Belongs To Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');
