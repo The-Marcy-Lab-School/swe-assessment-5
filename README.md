@@ -99,4 +99,5 @@ Your mission is to get all the tests to pass. There are a *lot* of tests and the
 * Does the function console log? Return something? Both? Neither?? WHAT DOES IT DO?!
 * Are your methods and properties *spelled* correctly?
 * Do any classes inherit from any others?
-* 
+
+## You Got This!
